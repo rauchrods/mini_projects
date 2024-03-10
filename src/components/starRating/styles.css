@@ -1,0 +1,13 @@
+.star_rating {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  svg {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
