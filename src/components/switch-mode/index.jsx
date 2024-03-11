@@ -9,7 +9,7 @@ function SwitchMode() {
     setTheme((prevState) => (prevState === "dark" ? "light" : "dark"));
   }
 
-  console.log(theme);
+  // console.log(theme);
   return (
     <div className={`switchMode-container ${theme}-mode`}>
       <div className="container">

@@ -3,13 +3,13 @@ import React, { useEffect, useState } from "react";
 function useLocalStorage(key, defaultValue) {
   const [value, setValue] = useState(() => {
     let currentValue;
-     console.log('lets Seee');
+    //  console.log('lets Seee');
     try {
       currentValue = JSON.parse(
         localStorage.getItem(key) || String(defaultValue)
       );
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       currentValue = defaultValue;
     }
 
