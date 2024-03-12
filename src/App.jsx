@@ -11,6 +11,7 @@ import QrCodeGenerator from "./components/qr_code_generator";
 import SwitchMode from "./components/switch-mode";
 import ScrollIndicator from "./components/scroll_indicator";
 import Tabtest from "./components/custom-tabs/tab-test";
+import ModalTest from "./components/modal-popup/modal-test";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <SwitchMode/>
       <ScrollIndicator/>
       <Tabtest/>
+      <ModalTest/>
     </>
   );
 }
