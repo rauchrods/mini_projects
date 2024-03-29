@@ -12,6 +12,7 @@ import SwitchMode from "./components/switch-mode";
 import ScrollIndicator from "./components/scroll_indicator";
 import Tabtest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/modal-popup/modal-test";
+import GitHubProfileFinder from "./components/github_profile_finder";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <ScrollIndicator/>
       <Tabtest/>
       <ModalTest/>
+      <GitHubProfileFinder/>
     </>
   );
 }
