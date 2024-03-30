@@ -14,7 +14,7 @@ function GitHubProfileFinder() {
     setUserData(data);
     setLoading(false);
 
-    console.log(data);
+    // console.log(data);
   }
 
   function handleSubmit() {
