@@ -15,6 +15,7 @@ import ModalTest from "./components/modal-popup/modal-test";
 import GitHubProfileFinder from "./components/github_profile_finder";
 import SearchAutoComplete from "./components/search_auto_complete";
 import TicTacToe from "./components/tic_tac_toe";
+import Weather from "./components/weather_app/weather/Weather";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <GitHubProfileFinder/>
       <SearchAutoComplete/>
       <TicTacToe/>
+      <Weather/>
     </>
   );
 }

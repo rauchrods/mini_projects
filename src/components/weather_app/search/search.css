@@ -1,0 +1,22 @@
+.search-engine{
+    display: flex;
+    justify-content: space-between;
+
+    input{
+        padding: 0.4rem 1.4rem;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        width: 50%;
+    }
+
+    button{
+        cursor: pointer;
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+        width: 35%;
+    }
+}
